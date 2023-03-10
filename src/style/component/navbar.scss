@@ -1,0 +1,117 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .nav__menu {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    h2 {
+      margin-left: 15px;
+      font-size: 14px;
+      line-height: 19px;
+      color: #151515;
+      font-weight: 700;
+      &:hover {
+        cursor: pointer;
+        color: #394180;
+      }
+    }
+  }
+  .nav__searchbox {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    select {
+      width: 110px;
+      height: 30px;
+      background-color: #e7e7e7;
+      border-radius: 15px;
+      border: none;
+      outline: none;
+      color: #777777;
+    }
+    .search-icon {
+      width: 30px;
+      height: 30px;
+      background-color: #e7e7e7;
+      padding: 5px;
+      border-radius: 50%;
+      margin: 0 10px;
+      color: #777777;
+      cursor: pointer;
+    }
+    .search-box {
+      display: none;
+    }
+  }
+}
+.navbar__openInput_active {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .nav__menu {
+    display: none;
+  }
+  .nav__searchbox {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    select {
+      position: absolute;
+      right: 50px;
+      width: 110px;
+      height: 30px;
+      background-color: #e7e7e7;
+      border-radius: 15px;
+      border: none;
+      outline: none;
+      color: #777777;
+    }
+    .search-box {
+      display: flex;
+      align-items: center;
+      .icon-active {
+        font-size: 30px;
+        font-weight: 300;
+        color: #394180;
+      }
+      input {
+        border: none;
+        outline: none;
+        margin-left: 10px;
+        border-radius: 10px;
+        border: none;
+        padding-left: 25px;
+        width: 830px;
+        height: 40px;
+        box-shadow: 2px 3px 15px rgb(191, 191, 193);
+        &::placeholder {
+          padding-left: 15px;
+        }
+      }
+    }
+    .search-icon_active {
+      position: absolute;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      color: #777777;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 25px;
+      cursor: pointer;
+      box-shadow: 1px 1px 7px rgb(232, 232, 232);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

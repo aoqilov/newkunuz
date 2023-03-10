@@ -5,6 +5,7 @@ import "./style/app.scss";
 import Home from "./page/Home";
 import Navbar from "./components/Navbar";
 import AdvertTop from "./components/AdvertTop";
+import Miks from "./components/Miks";
 
 const queryClient = new QueryClient();
 
@@ -14,6 +15,7 @@ const App = () => {
       <QueryClientProvider client={queryClient}>
         <AdvertTop />
         <Navbar />
+        <Miks />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
