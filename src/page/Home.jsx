@@ -1,7 +1,6 @@
 import React from "react";
-import BasicMain from "../components/forHome/BasicMain";
 import Basics from "../components/forHome/Basics";
-import LastNewsS from "../components/forHome/LastNewsS";
+import LastNewsS from "../components/LastNewsS";
 import Muharir from "../components/forHome/Muharir";
 import "../style/pagesty/home.scss";
 // icons
@@ -10,19 +9,26 @@ import Intervyu from "../components/forHome/Intervyu";
 import Qonun from "../components/forHome/Qonun";
 import Maqola from "../components/forHome/Maqola";
 import Biznes from "../components/forHome/Biznes";
+import Video from "../components/forHome/Video";
+import Foto from "../components/forHome/Foto";
+import Footer from "../components/Footer";
+import AdvertTop from "../components/AdvertTop";
+import Navbar from "../components/Navbar";
+import Miks from "../components/Miks";
 
 const Home = () => {
   return (
     <div>
+      <AdvertTop />
+      <Navbar />
+      <Miks />
       <section className="basic__box">
         <div className="basic__left">
-          <BasicMain />
           <Basics />
-          {/* muharir box */}
+
           <Muharir />
         </div>
         <div className="basic__right">
-          {/* lasNewsS */}
           <LastNewsS />
         </div>
       </section>
@@ -41,6 +47,13 @@ const Home = () => {
       <section className="biznes">
         <Biznes />
       </section>
+      <section className="media">
+        <Video />
+        <Foto />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };

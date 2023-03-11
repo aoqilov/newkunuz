@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/pagesty/home.scss";
+import "../../style/component/basics.scss";
 import { BsCalendarEvent } from "react-icons/bs";
 import { useQuery } from "react-query";
 import axios from "axios";
@@ -16,25 +16,43 @@ const Basics = () => {
     console.log(error.message);
   }
   const basicsData = data?.data;
-  console.log(basicsData);
   return (
-    <div className="basics">
-      {basicsData.map((elem) => {
-        return (
-          <div className="basics__card" key={elem.id}>
-            <img className="basics-img" src={elem.photo1} alt="basics" />
-            <div className="basics-info">
-              <div id="vaqtbox">
-                <BsCalendarEvent className="time-icon" />
-                <p> {elem.time} /</p> <p>{elem.data}</p>
-              </div>
-              <h1 className="basics-title">{elem.title}</h1>
-              <span className="border-bottom"></span>
+    <>
+      <div className="basicMain">
+        <div className="basicMain__card">
+          <div className="card-imgbox">
+            <img src={basicsData[0].photo1} alt="" />
+          </div>
+          <div className="card-info">
+            <div id="vaqtbox">
+              <BsCalendarEvent className="time-icon" />
+              <p>{basicsData[0].time} /</p> <p>{basicsData[0].data}</p>
+            </div>
+            <div className="title">
+              <h1>{basicsData[0].title}</h1>
+              <p>{basicsData[0].paragrph}</p>
             </div>
           </div>
-        );
-      })}
-    </div>
+        </div>
+      </div>
+      <div className="basics">
+        {basicsData.slice(1, 5).map((elem) => {
+          return (
+            <div className="basics__card" key={elem.id}>
+              <img className="basics-img" src={elem.photo1} alt="basics" />
+              <div className="basics-info">
+                <div id="vaqtbox">
+                  <BsCalendarEvent className="time-icon" />
+                  <p> {elem.time} /</p> <p>{elem.data}</p>
+                </div>
+                <h1 className="basics-title">{elem.title}</h1>
+                <span className="border-bottom"></span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 

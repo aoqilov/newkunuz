@@ -1,5 +1,4 @@
 import React from "react";
-import { CgShapeCircle } from "react-icons/cg";
 import { BsArrowRight } from "react-icons/bs";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,8 +10,17 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "../../style/component/swiper.scss";
-
+import { useQuery } from "react-query";
+import axios from "axios";
+import "../../style/component/biznes.scss";
 const Biznes = () => {
+  const { data, isLoading } = useQuery("biznes", () => {
+    return axios.get("http://localhost:4000/biznes");
+  });
+  if (isLoading) {
+    return <p>loading...</p>;
+  }
+  const biznesData = data?.data;
   return (
     <>
       <div className="top__title-dubl">
@@ -32,82 +40,16 @@ const Biznes = () => {
           modules={[Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide className="swiper-slide">
-            <div className="card">
-              <img
-                src="https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg"
-                alt="das"
-              />
-              <h1>
-                Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash
-                loyihasini ishga tushirdi
-              </h1>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="card">
-              <img
-                src="https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg"
-                alt="das"
-              />
-              <h1>
-                Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash
-                loyihasini ishga tushirdi
-              </h1>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <div className="card">
-              <img
-                src="https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg"
-                alt="das"
-              />
-              <h1>
-                Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash
-                loyihasini ishga tushirdi
-              </h1>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <div className="card">
-              <img
-                src="https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg"
-                alt="das"
-              />
-              <h1>
-                Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash
-                loyihasini ishga tushirdi
-              </h1>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <div className="card">
-              <img
-                src="https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg"
-                alt="das"
-              />
-              <h1>
-                Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash
-                loyihasini ishga tushirdi
-              </h1>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <div className="card">
-              <img
-                src="https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg"
-                alt="das"
-              />
-              <h1>
-                Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash
-                loyihasini ishga tushirdi
-              </h1>
-            </div>
-          </SwiperSlide>
+          {biznesData.map((elem) => {
+            return (
+              <SwiperSlide className="swiper-slide">
+                <div className="card">
+                  <img src={elem.photo1} alt="das" />
+                  <h1>{elem.title}</h1>
+                </div>
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </>

@@ -5,21 +5,7 @@
     "https://avatars.mds.yandex.net/get-adfox-content/2462621/230210_adfox_1749280_6240513.83a2975c6af2bfe43d63127116efbeaa.jpg/optimize.webp",
     "https://avatars.mds.yandex.net/get-adfox-content/2765366/230306_adfox_1749280_6324060.d37852e41ef4e0ed7532adfd67c3bfe9.png/optimize.webp"
   ],
-  "basicMain": [
-    {
-      "id": 1,
-      "time": "10:20",
-      "data": "05.03.2023",
-      "views": 19771,
-      "title": "Blinkenning tashrifi, sariq jilet hangomasi va chirigan olmalar - hafta dayjesti",
-      "paragrph": "Bitta kompaniyaga 350 ta maktab, o‘quvchilarga esa chirigan olmami? O‘qituvchi va shifokorlarga taalluqli yangi qonunlar amalda qanchalik ishlaydi? AQSh hukumatidagi birinchi raqamli vazir Toshkentga nega keldi? Yakunlanayotgan hafta voqealari – Kun.uz dayjestida.",
-      "youtube": "https://www.youtube.com/embed/gcuIHRwmRh0",
-      "text1": "Bundan tashqari, yana yuzdan ortiq maktabda o‘quvchilarni professional keytering kompaniyasi emas, quruvchi kompaniya ovqatlantiryapti. Bunday deyishimizga sabab, tenderlarning yana bir yirik g‘olibi bo‘lmish “Alliance Aral-S” firmasining asosiy faoliyat yo‘nalishi – oziq-ovqat emas, turar joy binolarini qurish.",
-      "text2": "Rasmiylarning aytishicha, bu qonun pedagoglarni bo‘lar-bo‘lmas tadbirlarga noqonuniy jalb qilish, har xil ishchi guruhlar tarkibiga qo‘shish, ulardan turli hisobot va ma’lumotlarni talab qilaverish kabi muammolarga yechim bo‘lishi kerak. Lekin shunisi e’tiborliki, buni aytayotgan senatorlar avvalroq kiritilgan moddalar amaliyotda ishlayaptimi-yo‘qmi, bu haqda gapirishmadi. Yuqorida aytganimizdek, o‘qituvchilar ishiga aralashishni taqiqlovchi norma ma’muriy kodeksda bungacha ham bor edi, lekin bu modda asosida nechta amaldorga nechta jarima yozilgan – noma’lum. Shunisi aniqki, bu raqamlar haqiqiy hayotdagi majburlashlar sonidan karrasiga kam.",
-      "photo1": "https://storage.kun.uz/source/thumbnails/_medium/9/BBHsmU9yFHrucB_G6r9lwxU-JJ0g7MHg_medium.jpg",
-      "photo2": ""
-    }
-  ],
+
   "basics": [
     {
       "id": 1,
@@ -27,7 +13,7 @@
       "data": "03.03.2023",
       "views": "27019",
       "title": "Rossiyaning ichki hududlariga dronlar zarbasini kim uyushtirdi? Zarbalar Rossiya hududidan amalga oshirilgan bo‘lishi mumkinmi?",
-      "paragrph": "28 fevral kuni Ukraina qurolli kuchlari Rossiyaning ichki hududlaridagi nishonlariga yana zarbalar berdi. Bu ikkinchi shunday reyd - birinchisi dekabr oyi boshida kuzatilgandi. O‘shanda Ukrainaning uchuvchisiz qurilmalari Ryazan va Saratov oblastlarida joylashgan ikkita aerodromdagi Rossiya Aerokosmik kuchlarning strategik bombardimonchi samolyotlarini shikastlashga muvaffaq bo‘lgan edi.",
+      "paragrph": "28 fevral kuni Ukraina qurolli kuchlari Rossiyaning ichki hududlaridagi nishonlariga yana zarbalar berdi. Bu ikkinchi shunday reyd - birinchisi dekabr oyi boshida kuzatilgandi. O‘shanda Ukrainaning .",
       "youtube": "",
       "text1": "Bu safar, voqea joyidan olingan videolarga qaraganda, dronlar o‘z nishoniga yetib bora olmagan. 28 fevral kuni Krasnodar o‘lkasidagi neft ombori yaqinidan va Moskva oblastidagi daladan dron qoldiqlari topildi. Sun’iy yo‘ldoshdan olingan tasvirlarga ko‘ra, 27 fevralda Minsk yaqinidagi aviabazaga uyushtirilgan dron hujumi ham Rossiyaning A-50 radiolokatsion razvedka samolyotiga zarar yetkaza olmagan.",
       "text2": "Biroq, dron hujumlarining bunday natijasini Rossiya armiyasining muvaffaqiyati deb atash qiyin: aftidan, RF qurolli kuchlari uchuvchisiz qurilmalarni faqat nishonga yaqinlashgandagina urib tushira oladi. Demak, ular Ukraina chegarasidan ming kilometr uzoqlikkacha bo‘lgan masofadagi barcha muhim obektlarga himoya tizimlari o‘rnatishi kerak. Ukraina qurolli kuchlari, shubhasiz, bunday hujumlarni davom ettiradi va ehtimol, ularning ko‘pchiligi muvaffaqiyatli yakunlanadi. To‘g‘ri, Ukraina rasmiylarining o‘zlari ham zarbalarga aloqadorliklarini rad etmoqda.",
@@ -72,6 +58,19 @@
       "text2": "TASS manbasi «diversantlar» ikki qishloqqa bostirib kirganini xabar qilgan. Ulardan birida to‘rt yoki olti kishi garovga olingani, Rossiya kuchlari va «diversantlar» o‘rtasida jang kechgani haqida aytilgan. Region rahbariyati huquq-tartibot organlari Sushani qishlog‘ida ish olib borayotganini ma’lum qilgan. Baza esa bu qishloqda go‘yoki elektr nimstansiyasi va gaz stansiyasi portlatilgani haqida yozdi. OAV Sushanida odamlar garovga olinganini xabar qildi, ammo region rahbariyati buni rad etdi. RIA Novosti esa Lyubechane qishlog‘idagi do‘konda bir necha kishi garovda ekani haqida yozdi.",
       "photo1": "https://storage.kun.uz/source/9/i1rCJKV5Q9s8ke4mS_GZ52fiCyMcgd9p.jpg",
       "photo2": "https://storage.kun.uz/source/9/fs1vsylczxEX-4cTmDfq5SFYx0-HUTYP.jpg"
+    },
+    {
+      "id": 5,
+      "time": "10:20",
+      "data": "05.03.2023",
+      "views": 19771,
+      "title": "Blinkenning tashrifi, sariq jilet hangomasi va chirigan olmalar - hafta dayjesti",
+      "paragrph": "Bitta kompaniyaga 350 ta maktab, o‘quvchilarga esa chirigan olmami? O‘qituvchi va shifokorlarga taalluqli yangi qonunlar amalda qanchalik ishlaydi? AQSh hukumatidagi birinchi raqamli vazir Toshkentga nega keldi? Yakunlanayotgan hafta voqealari – Kun.uz dayjestida.",
+      "youtube": "https://www.youtube.com/embed/gcuIHRwmRh0",
+      "text1": "Bundan tashqari, yana yuzdan ortiq maktabda o‘quvchilarni professional keytering kompaniyasi emas, quruvchi kompaniya ovqatlantiryapti. Bunday deyishimizga sabab, tenderlarning yana bir yirik g‘olibi bo‘lmish “Alliance Aral-S” firmasining asosiy faoliyat yo‘nalishi – oziq-ovqat emas, turar joy binolarini qurish.",
+      "text2": "Rasmiylarning aytishicha, bu qonun pedagoglarni bo‘lar-bo‘lmas tadbirlarga noqonuniy jalb qilish, har xil ishchi guruhlar tarkibiga qo‘shish, ulardan turli hisobot va ma’lumotlarni talab qilaverish kabi muammolarga yechim bo‘lishi kerak. Lekin shunisi e’tiborliki, buni aytayotgan senatorlar avvalroq kiritilgan moddalar amaliyotda ishlayaptimi-yo‘qmi, bu haqda gapirishmadi. Yuqorida aytganimizdek, o‘qituvchilar ishiga aralashishni taqiqlovchi norma ma’muriy kodeksda bungacha ham bor edi, lekin bu modda asosida nechta amaldorga nechta jarima yozilgan – noma’lum. Shunisi aniqki, bu raqamlar haqiqiy hayotdagi majburlashlar sonidan karrasiga kam.",
+      "photo1": "https://storage.kun.uz/source/thumbnails/_medium/9/BBHsmU9yFHrucB_G6r9lwxU-JJ0g7MHg_medium.jpg",
+      "photo2": ""
     }
   ],
   "muharir": [
@@ -509,7 +508,175 @@
       "author": ""
     }
   ],
-  "biznes": [],
-  "videoNews": [],
-  "fotoNews": []
+  "biznes": [
+    {
+      "id": 1,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Payme O‘zbekistonda ayol-tadbirkorlarni qo‘llab-quvvatlash loyihasini ishga tushirdi",
+      "paragrph": "8 mart sharafiga kompaniya odatiy tabriklar bilan cheklanib qolmasdan, balki haqiqatan ham foydali nimadir qilishga, aniqroq qilib aytganda esa ayol-tadbirkorlarga o‘z media-resurslari orqali targ‘ibot qilish imkoniyatini berishga qaror qildi.",
+      "youtube": "",
+      "text1": "Payme xalqaro xotin-qizlar kuni munosabati bilan bir qancha tadbirkor-ayollar uchun ularning faoliyatiga e’tibor qaratish maqsadida qamrab oluvchi kampaniyani tayyorlab qo‘ydi. «BeMac Legal» yuridik firmasi, «ADAMANT MOTORS» maxsus texnikalar sotish kompaniyasi, «PIONI» dekorativ to‘qimachilik brendi, «Fiora» gullar saloni, «Bibi-Khanum» mehmonxonasi va boshqa korxonalarning ayol ta’sischilari shular jumlasidan.",
+      "text2": "Mart oyi boshidan beri brendning ijtimoiy tarmoqlari, digital- va tashqi reklamalarida faqat ular haqidagi yangiliklar namoyish etilmoqda. Kompaniya ular uchun qisqa reklama roliklarini tayyorladi, shuningdek, intervyu jarayonida biznes yuritishdagi qiyinchiliklar, muvaffaqiyatlar va muvaffaqiyatsizliklar, ularni o‘z brendlarini yaratishga ilhomlantirgan g‘oyalar haqida o‘rtoqlashishlari so‘raldi",
+      "photo1": "https://storage.kun.uz/source/9/B025ZP79vug215vYaOhGXoxPSEH9Fkrq.jpg",
+      "photo2": "",
+      "author": ""
+    },
+    {
+      "id": 2,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Toshkent Tibbiyot akademiyasida Xalqaro xotin-qizlar kuni nishonlandi",
+      "paragrph": "",
+      "youtube": "",
+      "text1": "Toshkent Tibbiyot akademiyasida 8 mart – Xalqaro xotin-qizlar kuniga bag‘ishlangan bayram tadbiri bo‘lib o‘tdi. Unda muassasada faoliyat yuritayotgan xotin-qizlarning yutuqlari munosib taqdirlandi.",
+      "text2": "Akademiya rektori A.Shodmonov tadbirda jamiyat taraqqiyoti va hayotimizni ayollarning ishtirokisiz tasavvur etib bo‘lmasligini alohida ta’kidladi va qadrli ustoz-murabbiylar, xotin-qizlarni go‘zallik va nafosat ayyomi bilan qutlab, ularga mustahkam sog‘liq, go‘zallik, oilaviy baxt tiladi.",
+      "photo1": "https://storage.kun.uz/source/9/pucN4Iq8u_VI5DS72oMp8bF3KZuApSTQ.jpg",
+      "photo2": "https://storage.kun.uz/source/9/I4AuCxviNzdunzqHQ0sRg0GKXrh-Bpts.jpg",
+      "author": ""
+    },
+    {
+      "id": 3,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "UZTELECOM bilan bahoriy yangilanishlar mavsumi",
+      "paragrph": "",
+      "youtube": "",
+      "text1": "Bugun har birimiz bahorning boshlanishi va issiq kunlar kelgani bilan quvonamiz. Ular bilan birga hayotimizga yoqimli o‘zgarishlar va yangilanishlar kirib keladi. Shu sababli UZTELECOM mobil aloqa tarmog‘ini modernizatsiya qilishga qaratilgan «Yangilanish mavsumi» keng ko‘lamli loyihasini ishga tushirmoqda. Loyihadan butun mamlakat bo‘ylab 3 000 dan ortiq mavjud tayanch stansiyalarini eng so‘nggi texnologiyalar bo‘yicha yangilash, shuningdek, 2 000 dan ortiq yangi tayanch stansiyalarini qurish va ishga tushirish maqsad qilingan. Bu O‘zbekiston bo‘ylab mobil aloqa sifatini yaxshilash, LTE standartidagi mobil internet tezligini hamda uning qamrovini oshirish imkonini beradi",
+      "text2": "Loyihaning muhim bosqichi qator tayanch stansiyalarini 5G standartiga yangilash jarayoni bo‘ladi, natijada UZTELECOM mobil aloqa abonentlari beshinchi avlod tezligida mobil internetdan bemalol foydalanishlari mumkin. Ta’kidlash joizki O‘zbekistonda birinchi marta flagman smartfonlar, jumladan, iPhone egalari 5G texnologiyasidagi mobil internetdan foydalanish imkoniyatiga ega bo‘ladi. UZTELECOM O‘zbekistonda mazkur qurilmalar foydalanuvchilariga beshinchi avlod aloqa imkoniyatlaridan foydalanish imkonini beruvchi birinchi operator bo‘ladi.",
+      "photo1": "https://storage.kun.uz/source/9/TdZZGSkacch_ry3w103m_3KovQSI7XNN.jpg",
+      "photo2": "",
+      "author": ""
+    },
+    {
+      "id": 4,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Toshkent tibbiyot akademiyasi talabalariga rossiyalik onkologlar dars o‘tishmoqda",
+      "paragrph": "Rossiyaning yirik onkologlari uch kun davomida TTA talabalariga dars o‘tishadi. Rossiyaning Bloxin nomidagi onkologiya milliy tibbiyot ilmiy tadqiqot markazi delegatsiyasi shu maqsadda O‘zbekistonga keldi.",
+      "youtube": "https://youtu.be/zoexpOJ0W9s",
+      "text1": "z xalqaro darajadagi onkolog shifokorlar bilan hamkorlik doirasida Toshkent tibbiyot akademiyasiga keldik. Umumiy tibbiyot maktabidan kelib chiqqan holda umumiy til qadriyatlariga ega, umumiy madaniy qadriyatlarga ega xalqlar sifatida ushbu akademiya bilan ko‘p yillar davomida hamkorligimiz davom etib keladi.",
+      "text2": "Delegatsiya tarkibida Bloxin nomidagi onkologiya milliy tibbiyot ilmiy tadqiqot markazi rahbari va yetakchi mutaxassislari bor. Ayni paytda to‘rtta auditoriyada talabalarga dars o‘tyapmiz.",
+      "photo1": "https://storage.kun.uz/source/thumbnails/_medium/9/VJ296xqcYKoGBdf-QkEy5AgZtle0TR7I_medium.jpg",
+      "photo2": "",
+      "author": ""
+    },
+    {
+      "id": 5,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Bozorlardan zamonaviy chakana savdoga: Makro mijozlar qalbiga yangi yo‘lni topmoqda",
+      "paragrph": "",
+      "youtube": "",
+      "text1": "The Mag jurnalida Makro supermarketlarining boshqaruvchi direktori Dmitriy Bovaning “Bozorlardan zamonaviy chakana savdoga: Makro mijozlar qalbiga yangi yo‘l topmoqda” intervyusi chop etildi. Unda yangi top-menejyer tarmoq qanday rivojlanishi, ba’zi do‘konlar nega yopilgani, qachon o‘zbekistonlik xaridorlar bozorlardan supermarketlarga o‘tishlari, shuningdek kim fresh va ultrafresh mahsulotlari yetkazib beruvchisiga aylanishi haqida gapirib berdi. KUN.UZ suhbatning eng qiziqarli parchalarini nashr etadi.",
+      "text2": "ozirda biz yangi jamoa yig‘yapmiz va ko‘pi bilan ikki formatga e’tibor qaratishni rejalashtirmoqdamiz. Barcha yopganlarimiz potensial qiziqish doirasidan tashqariga chiqqan edi. Rejada – tashrif buyuruvchilarning asosiy ehtiyojlariga e’tibor qaratishdir. Bu birinchi navbatda fresh va ultrafresh: sabzavotlar, mevalar, go‘sht, baliq, sut – amal qilish muddati 5-10 kungacha bo‘lgan barcha mahsulotlardir. Biz taxminan olti oy davomida shunday ishlaymiz, kompaniyani barqarorlashtiramiz, uning kuchli tomonlarini aniqlaymiz va butun mamlakat bo‘ylab kengayishni boshlaymiz.",
+      "photo1": "https://storage.kun.uz/source/9/wlOfM9OEiFborXVfK91mAdohqWs2W9Co.jpg",
+      "photo2": "https://storage.kun.uz/source/9/j2DASMk6CSON5DqH12UBeoQ6s3k5JWRh.jpg",
+      "author": ""
+    },
+    {
+      "id": 6,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Metroda Mobiuz aloqaci ishlay boshladi",
+      "paragrph": "Mobiuz abonentlari Toshkent metropolitenining yerosti bekatlarida mobil internetdan foydalanishlari va qo‘ng‘iroq qilishlari mumkin",
+      "youtube": "",
+      "text1": "Metroga tushaman, chiqishim bilan sizga qo‘ng‘iroq qilaman”. Bu ibora ko‘pchilik uchun tanish, lekin u tobora o‘z ahamiyatini yo‘qotmoqda. Mobil aloqa yer ostiga ham kengroq kirib bormoqda va minglab yo‘lovchilarga zarur xizmatlarni taqdim etishga yordam bermoqda.",
+      "text2": "Foto: Mobiuz Mobiuz abonentlari Toshkent metropolitenining yerosti bekatlarida mobil internetdan foydalanishlari va qo‘ng‘iroq qilishlari mumkin.Metroga tushaman, chiqishim bilan sizga qo‘ng‘iroq qilaman”. Bu ibora ko‘pchilik uchun tanish, lekin u tobora o‘z ahamiyatini yo‘qotmoqda. Mobil aloqa yer ostiga ham kengroq kirib bormoqda va minglab yo‘lovchilarga zarur xizmatlarni taqdim etishga yordam bermoqda.",
+      "photo1": "https://storage.kun.uz/source/9/Td74KZSvWnVhZo7Yhj195awc6G2OzWIj.jpg",
+      "photo2": "https://storage.kun.uz/source/9/hBgYTIkNqYzgozmJsEXX63uE-RuXR7oP.jpg",
+      "author": ""
+    }
+  ],
+  "videoNews": [
+    {
+      "id": 1,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Supermarketdan naqd pul, komissiyasiz to‘lov, Uzcard va Humo integratsiyasi - nimalar kutilyapti?",
+      "paragrph": "irik supermarketlar kassalaridan 300-500 ming so‘mgacha naqd pul olish mumkin bo‘ladi. Fuqarolar budjetga to‘lov qilishda komissiya to‘lamaydi. Do‘kondorlar ikki xil terminal ishlatishdek ovoragarchilikdan nihoyat xalos bo‘ladi.",
+      "youtube": "https://youtu.be/IwXTRPDLloU",
+      "text1": "Kun.uz prezident qarorida yozilgan bu o‘zgarishlar nimani anglatadi, odamlarga nima foyda beradi kabi savollarga Markaziy bank departamenti direktori Ulug‘bek Mahmudovdan javob oldi.",
+      "text2": " 2023 yil 9 martda qabul qilingan (88-sonli) prezident qaroriga muvofiq, 1 maydan boshlab benifitsiari budjet va korporativ buyurtmachi hisoblangan to‘lovlar bo‘yicha to‘lov xizmatlarini ko‘rsatganlik uchun vositachilik haqi yoki yig‘imlar (to‘lov shaklidan qat’i azar) aholidan undirilmaydi. Endi vositachilik haqi mablag‘larni oluvchidan chegirib qolish yo‘li bilan olinadi. Bu barcha turdagi davlat bojlari, ma’muriy jarimalar, yoki kommunal to‘lovlarga tatbiq etiladi",
+      "photo1": "https://storage.kun.uz/source/thumbnails/_medium/9/5K3OLMMapBfQT3lmIwENXoY-bYWabFwO_medium.jpg",
+      "photo2": "",
+      "author": ""
+    },
+    {
+      "id": 2,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "Ziroat Mirziyoyeva eko-faollar bilan birga daraxt ekdi",
+      "paragrph": "Toshkentda ekologiya faollari tadbiri o‘tkazildi. ",
+      "youtube": "",
+      "text1": "O‘zbekistonning birinchi xonimi eko-faollar bilan birgalikda Toshkent shahrining Anhor kanali bo‘yida chinor, eman, qayin, zarang va shumtol daraxtlarini ekishda ishtirok etgan.",
+      "text2": "",
+      "photo1": "https://storage.kun.uz/source/9/QYARAlU1bvhKdYQsnFrSPcnxAOF7EpGX.jpg",
+      "photo2": "https://storage.kun.uz/source/9/VVt24wU3ohuoWCCuRvueyL2sb3spUfX0.jpg",
+      "author": ""
+    },
+    {
+      "id": 3,
+      "time": "11:50",
+      "data": "04.03.2023",
+      "views": "1536",
+      "title": "“Narkoz me’yoridan ko‘proq berilishi o‘limga olib kelmaydi” – anesteziolog",
+      "paragrph": "Xorijda faoliyat yuritayotgan hamyurtimiz, anesteziolog-reanimatolog Jahongir Jo‘rayevning ta’kidlashicha, operatsiya paytida bemorga narkozni me’yoridan ko‘proq berish uning o‘limiga olib kelmaydi. Shuningdek, u vayner Farhod Mannopovning o‘limi yuzasidan ochiq qolayotgan savollarga ham munosabat bildirdi.",
+      "youtube": "https://youtu.be/NLNQqm0vFdY",
+      "text1": "– Asosiy aybni shifokorlarga yuklashyapti hozir. Narkoz beruvchi anesteziolog ko‘p berib yuboribdi, degan mish-mishlar tarqalgan. Bu fikrga qo‘shilmayman. O‘zim shu sohada 20 yildan ko‘proq tajribaga egaman. 10 yil O‘zbekistonda va salkam 10 yildan buyon chet elda ishlab kelyapman.",
+      "text2": "Anesteziolog sifatida aytamanki, narkozni ko‘proq berib qo‘ysa, bemor nobud bo‘ladi degan tushuncha xato. Bunga yuz foiz javob bera olaman. Narkoz dorisi belgilangan miqdordan ko‘proq berib qo‘yilsa, bemor ko‘proq uxlaydi va kechroq uyg‘onadi. Tamom. Narkozni ko‘p berib qo‘yish o‘limga olib kelmaydi.",
+      "photo1": "https://storage.kun.uz/source/9/yVOgf_fD8Tw9A6G_gBMCtbOlbslSPCB4.jpg",
+      "photo2": "",
+      "author": ""
+    }
+  ],
+  "fotoNews": [
+    {
+      "id": 1,
+      "time": "07:51",
+      "data": "02.03.2023",
+      "views": "16029",
+      "title": "Ukraina bo‘ylab «qasos zarbasi» oqibatlari, Baxmutda qolayotgan askarlar. Urush suratlari",
+      "paragrph": "Ukrainada urushning 379-kuni o‘tdi. Asosiy ma’lumotlar:",
+      "youtube": "",
+      "text1": "Bundan tashqari, 9 mart kuni Ukraina qurolli kuchlari quruqlik qo‘shinlari qo‘mondoni Oleksandr Sirskiy ham Baxmutdagi vaziyat yuzasidan izoh berdi. U ukrain qo‘shini rossiyaliklar shaharni operativ qurshovga tushirishiga yo‘l qo‘ymagani, ammo «vaziyat juda murakkabligicha qolayotgani»ni aytgan.",
+      "text2": "merikadagi Urushlarni o‘rganish instituti esa, Rossiya qo‘shini Baxmut hududining qariyb yarmini egallagan, ko‘p ehtimol bilan, shaharni ikkiga ajratib turgan Baxmutka daryosini chetlab o‘tish uchun shahar shimoli-g‘arbi va janubi-g‘arbiga hujumlarni kuchaytirishi mumkin deb hisoblaydi. RF mudofaa vazirligi so‘nggi brifingida Baxmut yo‘nalishidagi jiddiy muvaffaqiyatlar haqida xabar bermagan.",
+      "photo1": "https://storage.kun.uz/source/9/dSTenCXnTPrIZxFv8XZRQf9bDWRaZQxm.jpg",
+      "photo2": "https://storage.kun.uz/source/9/sZn8aPnuwr89-B8T_Gl89mulTGFhCNUl.jpg"
+    },
+    {
+      "id": 2,
+      "time": "07:51",
+      "data": "02.03.2023",
+      "views": "16029",
+      "title": "Baxmutda qolayotgan ukrain askarlari, Kupyanskda yana evakuatsiya. Urush suratlari",
+      "paragrph": "Ukrainada urushning 378-kuni o‘tdi. Asosiy ma’lumotlar:",
+      "youtube": "",
+      "text1": "8 mart tongida «Vagner» XHK rahbari Yevgeniy Prigojin Donetsk oblastidagi Baxmut shahrining sharqiy qismi egallangani haqida xabar berdi. Bu haqda Amerikadagi Urushlarni o‘rganish instituti (ISW) hisobotida ham keltirilgan. Ammo ISW ekspertlari hamon Baxmutning taktik egallanishi Rossiyaga operativ natijalar keltirmaydi degan fikrda. Ular RF armiyasining Ukraina sharqidagi yurishi «kulminatsiyaga yetishi», shundan keyin rossiyaliklar muvaffaqiyatni rivojlantira olmasligini aytishmoqda.",
+      "text2": "Izyum Xarkivdan 120 kilometr janubi-sharqda, Donetsk oblasti bilan chegaraga yaqin joylashgan. Rossiya armiyasi shahardan 2022 yil 10 sentabrida chekingandi. Ukraina qurolli kuchlari Izyumga kirganida, bu yerda elektr va ichimlik suvi ta’minoti yo‘q edi, ammo vaqt o‘tib kommunikatsiyaning bir qismini tiklashga muvaffaq bo‘lindi. Quyida mahalliy hospitaldagi shifokorlar qanday ishlayotgan aks etgan suratlar.",
+      "photo1": "https://storage.kun.uz/source/uploads/2023/41n0yuk01.jpg",
+      "photo2": "https://storage.kun.uz/source/uploads/2023/41n0yuk02.jpg"
+    },
+    {
+      "id": 3,
+      "time": "07:51",
+      "data": "02.03.2023",
+      "views": "16029",
+      "title": "Frontdagi shifokorlar va g‘arbga jo‘nayotgan evakuatsiya poyezdlari. Urush suratlari",
+      "paragrph": "Ukrainada urushning 377-kuni o‘tdi. Asosiy ma’lumotlar:",
+      "youtube": "",
+      "text1": "Die Zeit nashri yozishicha, nemis tergovchilari «Shimoliy oqim» gaz quvurlarida diversiya uchun foydalanilgan kemani aniqlagan. Diversiya guruhi olti kishidan iborat bo‘lgan, ammo ular kimligi va portlashlarni kim buyurtma qilgani hozircha aniq emas.",
+      "text2": "The New York Times nashri yozishicha, Amerika razvedkasi «Shimoliy oqim»ga hujum ortida qandaydir «ukrainparast guruh» turgan bo‘lishi mumkinligini taxmin qilmoqda. Shu bilan birga, razvedkada hodisaga mamlakat rahbariyati aloqadorligi yoki diversantlar qaysidir mulozim ko‘rsatmasiga asosan harakatlangani bo‘yicha dalil yo‘q.",
+      "photo1": "https://storage.kun.uz/source/9/fxftqJBJm6KsHgfBmMnFZfFvJEEr75AD.jpg",
+      "photo2": "https://storage.kun.uz/source/9/QzUZeDDzasxOScNeasNp4YCpWO7MzdHl.jpg"
+    }
+  ]
 }

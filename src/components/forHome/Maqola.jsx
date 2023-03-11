@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { CgShapeCircle } from "react-icons/cg";
 import { useQuery } from "react-query";
+import "../../style/component/maqola.scss";
 
 const Maqola = () => {
   const { data, isLoading, isError, error } = useQuery("maqola", () => {

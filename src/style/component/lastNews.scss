@@ -1,0 +1,52 @@
+.last__newsS {
+  .lastnewsS__cards {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    .lastnewsS__card {
+      height: 96px;
+      padding-left: 10px;
+      h1 {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #000000;
+        line-height: 21px;
+        height: 45px;
+        &:hover {
+          color: #003bb3;
+          cursor: pointer;
+        }
+      }
+      .border-bottom {
+        position: relative;
+        top: -8px;
+      }
+    }
+    .koproq__news {
+      margin: 50px 0 0 10px;
+      width: 315px;
+      height: 60px;
+      background-color: #eff1fb;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-left: 4px solid #003bb3;
+      font-size: 16px;
+      font-weight: 600;
+      color: #000000;
+      &:hover {
+        cursor: pointer;
+        p {
+          color: #003bb3;
+        }
+      }
+      .koproq__news-icon {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}

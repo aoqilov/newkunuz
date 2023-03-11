@@ -4,6 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { useQuery } from "react-query";
 import axios from "axios";
 import Loading from "../Loading";
+import "../../style/component/intervyu.scss";
 
 const Intervyu = () => {
   const { data, isLoading, isError, error } = useQuery("intervyu", () => {

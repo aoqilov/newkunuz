@@ -1,0 +1,32 @@
+.biznes {
+  width: 100%;
+  height: 435px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  .top__title-dubl {
+    margin-top: 25px;
+    img {
+      margin: 0 5px;
+    }
+    p {
+      cursor: pointer;
+      font-weight: 700;
+      color: #003bb3;
+      margin: 0 15px;
+      width: 210px;
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover {
+        color: #003cc9dc;
+      }
+    }
+  }
+  .biznes__box {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+}

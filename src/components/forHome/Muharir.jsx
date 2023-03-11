@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useQuery } from "react-query";
 import axios from "axios";
 import Loading from "../Loading";
+import "../../style/component/muharir.scss";
 
 const Muharir = () => {
   const { data, isLoading, isError, error } = useQuery("muharir", () => {

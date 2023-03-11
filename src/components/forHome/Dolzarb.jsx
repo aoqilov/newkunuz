@@ -3,7 +3,7 @@ import React from "react";
 // icons
 import { CgShapeCircle } from "react-icons/cg";
 import { useQuery } from "react-query";
-import "../../style/pagesty/home.scss";
+import "../../style/component/dolzarb.scss";
 import Loading from "../Loading";
 
 const Dolzarb = () => {

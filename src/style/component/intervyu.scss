@@ -1,0 +1,74 @@
+.intervyu {
+  height: 455px;
+  background-color: #eff1fb;
+  .top__title-dubl {
+    padding: 15px 0;
+    p {
+      position: absolute;
+      right: 15px;
+      top: 10px;
+      display: flex;
+      width: 100px;
+      text-decoration: none;
+      height: 20px;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 700;
+      &:hover {
+        color: #003bb3;
+        cursor: pointer;
+      }
+    }
+  }
+  .intervyu__box {
+    .int__cards {
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 20px;
+      margin-top: 20px;
+      .int__card {
+        height: 320px;
+        width: 290px;
+        background-color: white;
+        position: relative;
+        .imgbox {
+          width: 245px;
+          height: 165px;
+          background-color: #003bb3;
+          position: relative;
+          top: -10px;
+          left: -10px;
+          img {
+            width: 245px;
+            height: 165px;
+
+            position: relative;
+            top: -10px;
+            left: -10px;
+          }
+        }
+        h1 {
+          padding: 0 30px;
+          font-size: 17px;
+          line-height: 23px;
+          font-weight: 700;
+          color: #000000;
+          margin-top: 15px;
+          &:hover {
+            color: #003bb3;
+            cursor: pointer;
+          }
+        }
+        p {
+          position: absolute;
+          right: -30px;
+          top: 60px;
+          transform: rotate(270deg);
+          font-size: 28px;
+          font-weight: 700;
+          color: #e3e3e3;
+        }
+      }
+    }
+  }
+}

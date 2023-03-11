@@ -4,8 +4,8 @@ import { BsCalendarEvent } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import { useQuery } from "react-query";
 import axios from "axios";
-import "../../style/pagesty/home.scss";
-import Loading from "../Loading";
+import "../style/component/lastNews.scss";
+import Loading from "../components/Loading";
 
 const LastNewsS = () => {
   const { data, isLoading, isError, error } = useQuery("last-newsS", () => {

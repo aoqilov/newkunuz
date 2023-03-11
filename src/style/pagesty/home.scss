@@ -13,478 +13,262 @@
     height: 1040px;
   }
   // for component
-  .basicMain {
-    .basicMain__card {
-      display: flex;
-      width: 100%;
-      background-color: yellow;
-      height: 340px;
-      .card-imgbox {
-        width: 52%;
-        height: 100%;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-      .card-info {
-        background-color: #eff2f8;
-        height: 100%;
-        width: 48%;
-        padding: 0 15px;
-        #vaqtbox {
-          margin-top: 15px;
-        }
-        .title {
-          h1 {
-            font-size: 22px;
-            line-height: 27px;
-            color: #151515;
-            font-weight: 700;
-            margin: 10px 0;
-          }
-          p {
-            margin-top: 30px;
-            font-size: 14px;
-            line-height: 26px;
-            font-weight: 500;
-            columns: #000000;
-          }
-        }
-      }
-    }
-  }
-  .basics {
-    margin-top: 10px;
-    width: 100%;
-    height: 310px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    .basics__card {
-      width: 49%;
-      height: 155px;
-      display: flex;
-      .basics-img {
-        height: 115px;
-        width: 175px;
-      }
-      .basics-info {
-        padding: 0 10px;
-
-        .basics-title {
-          margin-top: 5px;
-          font-size: 14px;
-          font-weight: 700;
-          line-height: 20px;
-          height: 80px;
-          &:hover {
-            color: #003bb3;
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
-  .muharir {
-    width: 100%;
-    height: 350px;
-
-    .muharir__cards {
-      margin-top: 20px;
-      width: 100%;
-      height: 200px;
-      display: flex;
-      justify-content: space-between;
-      .muharir__card {
-        width: 32.33%;
-        height: 330px;
-        .muharir-img {
-          width: 100%;
-          height: 200px;
-        }
-        .muharir-info {
-          padding: 0 10px;
-        }
-        .muharir-text {
-          margin-top: 10px;
-          color: #000000;
-          font-weight: 700;
-          line-height: 22px;
-          font-size: 16px;
-          &:hover {
-            color: #003bb3;
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
-  .last__newsS {
-    .lastnewsS__cards {
-      margin-top: 30px;
-      display: flex;
-      flex-direction: column;
-      .lastnewsS__card {
-        height: 96px;
-        padding-left: 10px;
-        h1 {
-          margin-top: 10px;
-          font-size: 14px;
-          font-weight: 600;
-          color: #000000;
-          line-height: 21px;
-          height: 45px;
-          &:hover {
-            color: #003bb3;
-            cursor: pointer;
-          }
-        }
-        .border-bottom {
-          position: relative;
-          top: -8px;
-        }
-      }
-      .koproq__news {
-        margin: 50px 0 0 10px;
-        width: 315px;
-        height: 60px;
-        background-color: #eff1fb;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        border-left: 4px solid #003bb3;
-        font-size: 16px;
-        font-weight: 600;
-        color: #000000;
-        &:hover {
-          cursor: pointer;
-          p {
-            color: #003bb3;
-          }
-        }
-        .koproq__news-icon {
-          font-size: 20px;
-          font-weight: bold;
-        }
-      }
-    }
-  }
 }
-.dolzarb {
+.media {
+  display: flex;
   width: 100%;
-  height: 680px;
-  .dolzarb__box {
-    height: 100%;
-    width: 100%;
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
-    div {
-      width: 50%;
-    }
-    .box__left {
-      .dolzarbMain__card {
-        width: 100%;
-        .dolzarbMain-img {
-          margin: 0 auto;
-          width: 92%;
-        }
-        .dolzarbMain-info {
-          width: 92%;
-          margin: 15px auto;
-          h1 {
-            font-size: 21px;
-            font-weight: 700;
-            line-height: 27px;
-            color: #000000;
-            height: 70px;
-            &:hover {
-              color: #003bb3;
-              cursor: pointer;
-            }
-          }
-          p {
-            font-size: 16px;
-            line-height: 21px;
-            font-weight: 500;
-            color: #000000;
-          }
-        }
-      }
-    }
-    .box__right {
-      height: 90%;
-      .cards__right {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 15px;
-        .card {
-          width: 48%;
-          height: 320px;
-          .imgbox {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-          }
-          h1 {
-            font-size: 16px;
-            line-height: 22px;
-            font-weight: 700;
-            &:hover {
-              color: #003bb3;
-              cursor: pointer;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-.intervyu {
-  height: 455px;
-  background-color: #eff1fb;
+  margin: 10px 0;
+  justify-content: space-between;
   .top__title-dubl {
-    padding: 15px 0;
-    p {
-      position: absolute;
-      right: 15px;
-      top: 10px;
-      display: flex;
-      width: 100px;
-      text-decoration: none;
-      height: 20px;
-      align-items: center;
-      justify-content: space-between;
-      font-weight: 700;
-      &:hover {
-        color: #003bb3;
-        cursor: pointer;
-      }
-    }
-  }
-  .intervyu__box {
-    .int__cards {
-      display: flex;
-      justify-content: space-evenly;
-      margin-left: 20px;
-      margin-top: 20px;
-      .int__card {
-        height: 320px;
-        width: 290px;
-        background-color: white;
-        position: relative;
-        .imgbox {
-          width: 245px;
-          height: 165px;
-          background-color: #003bb3;
-          position: relative;
-          top: -10px;
-          left: -10px;
-          img {
-            width: 245px;
-            height: 165px;
-
-            position: relative;
-            top: -10px;
-            left: -10px;
-          }
-        }
-        h1 {
-          padding: 0 30px;
-          font-size: 17px;
-          line-height: 23px;
-          font-weight: 700;
-          color: #000000;
-          margin-top: 15px;
-          &:hover {
-            color: #003bb3;
-            cursor: pointer;
-          }
-        }
-        p {
-          position: absolute;
-          right: -30px;
-          top: 60px;
-          transform: rotate(270deg);
-          font-size: 28px;
-          font-weight: 700;
-          color: #e3e3e3;
-        }
-      }
-    }
-  }
-}
-.qonun {
-  .top__title-dubl {
-    margin: 25px 0;
-  }
-  .qonun__box {
-    width: 100%;
-    height: 555px;
-    display: flex;
-    justify-content: space-between;
-    div {
-      width: 50%;
-    }
-    .qonun__leftbox {
-      .qonunMain__card {
-        margin-top: 25px;
-        height: 440px;
-        width: 100%;
-        background-color: #f0f0f0;
-        .imgbox {
-          width: 595px;
-          margin-left: 20px;
-          height: 370px;
-          position: relative;
-          background-color: white;
-          img {
-            width: 595px;
-            height: 370px;
-            position: absolute;
-            bottom: 25px;
-            left: -20px;
-          }
-        }
-        h1 {
-          margin-top: 10px;
-          font-size: 20px;
-          line-height: 23px;
-          color: #000000;
-          font-weight: 600;
-          padding-left: 20px;
-          &:hover {
-            cursor: pointer;
-            color: #003bb3;
-          }
-        }
-      }
-    }
-    .qonun__rightbox {
-      .cards {
-        margin: 0 auto;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        .card {
-          height: 110px;
-          display: flex;
-          width: 100%;
-          margin-bottom: 25px;
-          .imgbox {
-            width: 170px;
-            height: 110px;
-            img {
-              object-fit: cover;
-              width: 170px;
-              height: 100%;
-            }
-          }
-          h1 {
-            margin-top: 10px;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 23px;
-            color: #000000;
-            margin-left: 20px;
-            &:hover {
-              color: #003bb3;
-              cursor: pointer;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-.maqola {
-  width: 100%;
-  height: 1120px;
-  .top__title-dubl {
-    padding: 10px 0;
-  }
-  .maqola__box {
-    width: 100%;
-    .maqola__cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      .card {
-        margin-top: 20px;
-        width: 420px;
-        height: 520px;
-        box-shadow: 2px 2px 10px gainsboro;
-        .imgbox {
-          margin: 0 auto;
-          width: 405px;
-          height: 245px;
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-        }
-        .info {
-          width: 405px;
-          margin: 0 auto;
-          margin-top: 10px;
-          h1 {
-            font-size: 16px;
-            line-height: 22px;
-            font-weight: 700;
-            color: #000000;
-            &:hover {
-              cursor: pointer;
-              color: #003bb3;
-            }
-          }
-          p {
-            margin-top: 15px;
-            font-size: 14px;
-            line-height: 23px;
-            font-weight: 500;
-            color: #151515;
-          }
-        }
-      }
-    }
-  }
-}
-.biznes {
-  width: 100%;
-  height: 435px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  .top__title-dubl {
-    margin-top: 25px;
-    img {
-      margin: 0 5px;
-    }
+    margin: 10px 0;
     p {
       cursor: pointer;
       font-weight: 700;
       color: #003bb3;
-      margin: 0 15px;
-      width: 210px;
+      margin-top: 15px;
+      width: 200px;
       display: flex;
       justify-content: space-between;
       text-transform: uppercase;
       text-decoration: none;
+      padding-top: 5px;
       &:hover {
         color: #003cc9dc;
       }
     }
   }
-  .biznes__box {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+  .video {
+    width: 49%;
+    height: 790px;
+    .videoMain__card {
+      height: 405px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      .imgbox {
+        width: 100%;
+        height: 405px;
+        transition: 0.55s all;
+        overflow: hidden;
+        &:hover {
+          width: 110%;
+          height: 110%;
+          overflow: hidden;
+          position: relative;
+          left: -5%;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .play-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 120px;
+        background-color: #151d31ad;
+        color: white;
+        border-radius: 50%;
+        font-weight: 300;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        &:hover {
+          cursor: pointer;
+          background-color: #151d31d1;
+        }
+      }
+      h1 {
+        padding: 15px 20px;
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 700;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.205) 0%,
+          rgba(0, 0, 0, 0.829) 100%
+        );
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+    .video__cards {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      .card {
+        width: 315px;
+        height: 290px;
+        position: relative;
+        box-shadow: 2px 1px 4px gainsboro;
+        img {
+          width: 100%;
+          height: 195px;
+          object-fit: cover;
+        }
+        .vaqt {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 5px;
+          p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #000000;
+          }
+          h5 {
+            font-size: 12px;
+            font-weight: 400;
+            color: #304fff;
+          }
+        }
+        h1 {
+          font-size: 16px;
+          line-height: 19px;
+          font-weight: 700;
+          margin-top: 10px;
+        }
+        .play-icon {
+          position: absolute;
+          border: 2px solid white;
+          border-radius: 50%;
+          padding-left: 5px;
+          top: 20%;
+          left: 50%;
+          width: 50px;
+          height: 50px;
+          background-color: #1b1762ca;
+          color: white;
+        }
+      }
+    }
+  }
+  .foto {
+    width: 49%;
+    height: 790px;
+    .videoMain__card {
+      height: 405px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      .imgbox {
+        width: 100%;
+        height: 405px;
+        transition: 0.55s all;
+        overflow: hidden;
+        &:hover {
+          width: 110%;
+          height: 110%;
+          overflow: hidden;
+          position: relative;
+          left: -5%;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .play-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 120px;
+        background-color: #151d31ad;
+        color: white;
+        border-radius: 50%;
+        font-weight: 300;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        &:hover {
+          cursor: pointer;
+          background-color: #151d31d1;
+        }
+      }
+      h1 {
+        padding: 15px 20px;
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 700;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.205) 0%,
+          rgba(0, 0, 0, 0.829) 100%
+        );
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+    .video__cards {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      .card {
+        width: 315px;
+        height: 290px;
+        position: relative;
+        box-shadow: 2px 1px 4px gainsboro;
+        img {
+          width: 100%;
+          height: 195px;
+          object-fit: cover;
+        }
+        .vaqt {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 5px;
+          p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #000000;
+          }
+          h5 {
+            font-size: 12px;
+            font-weight: 400;
+            color: #304fff;
+          }
+        }
+        h1 {
+          font-size: 16px;
+          line-height: 19px;
+          font-weight: 700;
+          margin-top: 10px;
+        }
+        .play-icon {
+          position: absolute;
+          border: 2px solid white;
+          border-radius: 50%;
+          padding: 7px;
+          top: 20%;
+          left: 50%;
+          width: 50px;
+          height: 50px;
+          background-color: #1b1762ca;
+          color: white;
+        }
+      }
+    }
   }
 }
