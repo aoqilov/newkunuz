@@ -1,0 +1,101 @@
+.pageone {
+  width: 100%;
+  //   background-color: rosybrown;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  .last {
+    width: 240px;
+    // height: 200px;
+    // background-color: royalblue;
+  }
+  .main {
+    width: 770px;
+    .main__card {
+      margin-bottom: 20px;
+      border-left: 2px solid gainsboro;
+      padding: 10px;
+      border-bottom: 2px dotted gainsboro;
+      .card-top {
+        display: flex;
+        height: 40px;
+        gap: 20px;
+        .box {
+          display: flex;
+          align-items: center;
+          .top-icon {
+            margin-right: 5px;
+            color: #909090;
+            cursor: pointer;
+          }
+          p {
+            font-size: 12px;
+            line-height: 15px;
+            font-weight: 300;
+            color: #000000;
+          }
+          h3 {
+            font-size: 12px;
+            line-height: 15px;
+            font-weight: 700;
+            color: #000000;
+            margin-right: 10px;
+          }
+        }
+      }
+      .title {
+        margin-top: 20px;
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #000000;
+      }
+      .par {
+        margin-top: 40px;
+        font-size: 19px;
+        line-height: 31px;
+        font-weight: 700;
+        color: #000000;
+      }
+      .imgbox-one {
+        margin-top: 20px;
+        width: 100%;
+        height: 490px;
+      }
+      .par-text {
+        font-size: 19px;
+        line-height: 31px;
+        font-weight: 500;
+        color: #000000;
+        margin: 20px 0;
+      }
+    }
+  }
+  .reklama {
+    width: 300px;
+    height: 800px;
+    .cubic__rek {
+      width: 60%;
+      margin: 0 auto;
+      height: 380px;
+      .swiper {
+        width: 100%;
+        height: 90%;
+        position: relative;
+
+        .swiper-slide {
+          // background-position: center;
+          // background-size: cover;
+          position: relative;
+          top: -50px;
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

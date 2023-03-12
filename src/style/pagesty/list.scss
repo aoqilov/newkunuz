@@ -1,0 +1,90 @@
+.list {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  justify-content: space-between;
+  .list__leftbox {
+    width: 76%;
+    .top__title-dubl {
+      background-color: #eff2f8;
+      height: 75px;
+      width: 100%;
+      padding-left: 20px;
+      .top-icon {
+        font-size: 30px;
+      }
+      h1 {
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+    .cardbox__left {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      //   justify-content: center;
+      gap: 20px;
+      .card {
+        box-shadow: 2px 1px 5px gainsboro;
+        width: 320px;
+        min-height: 325px;
+        .card-img {
+          width: 98%;
+          margin: 0 auto;
+          height: 220px;
+          margin-bottom: 5px;
+          img {
+            width: 100%;
+            height: 95%;
+            object-fit: cover;
+          }
+        }
+        h1 {
+          margin-top: 10px;
+          font-size: 16px;
+          line-height: 22px;
+          font-weight: 700;
+          color: #000000;
+        }
+      }
+    }
+    .load {
+      width: 635px;
+      margin: 20px auto;
+      background-color: #17206a;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+      height: 50px;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+      letter-spacing: 1px;
+      &:hover {
+        background-color: #1c2680;
+        cursor: pointer;
+      }
+      .load-icon {
+        font-size: 25px;
+      }
+    }
+  }
+  .list__rightbox {
+    width: 23%;
+    max-height: 3750px;
+    position: relative;
+    .news__box {
+      width: 100%;
+      padding-bottom: 20px;
+      position: sticky;
+      top: 0px;
+      left: 50px;
+      bottom: 10px;
+    }
+  }
+}
+
+.list__mavzu {
+  margin-top: 50px;
+}

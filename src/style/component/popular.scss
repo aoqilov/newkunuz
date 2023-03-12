@@ -1,0 +1,35 @@
+.popular {
+  background-color: white;
+  width: 100%;
+  .lastnewsS__cards {
+    width: 100%;
+    padding: 0 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    .lastnewsS__card {
+      border: 1px solid #c4c4c4;
+      margin: 10px 0;
+      min-height: 96px;
+      padding-left: 10px;
+      h1 {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #000000;
+        line-height: 21px;
+        min-height: 45px;
+        &:hover {
+          color: #003bb3;
+          cursor: pointer;
+        }
+      }
+      .border-bottom {
+        display: none;
+      }
+    }
+    .koproq__news {
+      display: none;
+    }
+  }
+}

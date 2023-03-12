@@ -4,8 +4,8 @@ import { BsCalendarEvent } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import { useQuery } from "react-query";
 import axios from "axios";
-import "../../style/pagesty/home.scss";
-import Loading from "../Loading";
+import "../style/component/lastNews.scss";
+import Loading from "../components/Loading";
 
 const Tavsiya = () => {
   const { data, isLoading, isError, error } = useQuery("last-newsS", () => {
@@ -19,14 +19,14 @@ const Tavsiya = () => {
   }
   const lastNewsSData = data?.data;
   return (
-    <div className="last__newsS">
+    <div className="popular">
       <div className="top__title">
         <CgShapeCircle className="top-icon" />
         <h1>Tavsiya etamiz</h1>
       </div>
 
       <div className="lastnewsS__cards">
-        {lastNewsSData.slice(0, 5).map((elem) => {
+        {lastNewsSData.slice(0, 3).map((elem) => {
           return (
             <div className="lastnewsS__card">
               <div id="vaqtbox">

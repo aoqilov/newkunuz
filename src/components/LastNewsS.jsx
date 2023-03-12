@@ -7,7 +7,7 @@ import axios from "axios";
 import "../style/component/lastNews.scss";
 import Loading from "../components/Loading";
 
-const LastNewsS = () => {
+const LastNewsS = ({ type }) => {
   const { data, isLoading, isError, error } = useQuery("last-newsS", () => {
     return axios.get("http://localhost:4000/lastnewsS");
   });
@@ -25,10 +25,14 @@ const LastNewsS = () => {
         <h1>So'ngi yangiliklar</h1>
       </div>
 
-      <div className="lastnewsS__cards">
+      <div
+        className={
+          type === "border" ? "lastnewsS__cards_border" : "lastnewsS__cards"
+        }
+      >
         {lastNewsSData.slice(0, 9).map((elem) => {
           return (
-            <div className="lastnewsS__card">
+            <div className="lastnewsS__card" key={elem.id}>
               <div id="vaqtbox">
                 <BsCalendarEvent className="time-icon" />
                 <p>{elem.time}</p>

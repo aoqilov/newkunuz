@@ -5,15 +5,12 @@ import { Link } from "react-router-dom";
 import { useQuery } from "react-query";
 import axios from "axios";
 import Loading from "../Loading";
-import "../../style/component/muharir.scss";
+import "../../style/component/mavzu.scss";
 
-const Muharir = () => {
-  const { data, isLoading, isError, error, refetch } = useQuery(
-    "muharir",
-    () => {
-      return axios.get("http://localhost:4000/muharir");
-    }
-  );
+const Mavzu = () => {
+  const { data, isLoading, isError, error } = useQuery("muharir", () => {
+    return axios.get("http://localhost:4000/muharir");
+  });
   if (isLoading) {
     return <Loading />;
   }
@@ -22,16 +19,16 @@ const Muharir = () => {
   }
   const muharirData = data?.data;
   return (
-    <div className="muharir">
+    <div className="mavzu">
       <div className="top__title-dubl">
         <CgShapeCircle className="top-icon" />
-        <h1>Muharir tanlovi</h1>
-        <Link to={"/list"} state={{ state: muharirData }} onClick={refetch}>
+        <h1>Mavzuga oid</h1>
+        <Link>
           <p>barchasi</p>
         </Link>
       </div>
       <div className="muharir__cards">
-        {muharirData.slice(0, 3).map((elem) => {
+        {muharirData.slice(0, 4).map((elem) => {
           return (
             <div className="muharir__card" key={elem.id}>
               <img src={elem.photo1} alt="" className="muharir-img" />
@@ -50,4 +47,4 @@ const Muharir = () => {
   );
 };
 
-export default Muharir;
+export default Mavzu;
