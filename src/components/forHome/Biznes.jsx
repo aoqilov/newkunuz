@@ -13,6 +13,7 @@ import "../../style/component/swiper.scss";
 import { useQuery } from "react-query";
 import axios from "axios";
 import "../../style/component/biznes.scss";
+import { Link } from "react-router-dom";
 const Biznes = () => {
   const { data, isLoading } = useQuery("biznes", () => {
     return axios.get("http://localhost:4000/biznes");
@@ -26,10 +27,12 @@ const Biznes = () => {
       <div className="top__title-dubl">
         <img src="https://kun.uz/assets/99110d40/img/kun-uz-logo.svg" alt="" />
         <h1> Biznes</h1>
-        <p>
-          Hamkorlik qilish
-          <BsArrowRight />
-        </p>
+        <Link to={"/list"} state={{ state: biznesData }}>
+          <p>
+            Hamkorlik qilish
+            <BsArrowRight />
+          </p>
+        </Link>
       </div>
       <div className="biznes__box">
         <Swiper
@@ -42,10 +45,12 @@ const Biznes = () => {
         >
           {biznesData.map((elem) => {
             return (
-              <SwiperSlide className="swiper-slide">
+              <SwiperSlide className="swiper-slide" key={elem.id}>
                 <div className="card">
                   <img src={elem.photo1} alt="das" />
-                  <h1>{elem.title}</h1>
+                  <Link className="link" to={"/pageone"} state={elem}>
+                    <h1>{elem.title}</h1>
+                  </Link>
                 </div>
               </SwiperSlide>
             );

@@ -4,6 +4,7 @@ import { BsCalendarEvent } from "react-icons/bs";
 import { useQuery } from "react-query";
 import axios from "axios";
 import Loading from "../Loading";
+import { Link } from "react-router-dom";
 
 const Basics = () => {
   const { data, isLoading, isError, error } = useQuery("basics", async () => {
@@ -29,7 +30,9 @@ const Basics = () => {
               <p>{basicsData[0].time} /</p> <p>{basicsData[0].data}</p>
             </div>
             <div className="title">
-              <h1>{basicsData[0].title}</h1>
+              <Link className="link" to={"/pageone"} state={basicsData[0]}>
+                <h1>{basicsData[0].title}</h1>
+              </Link>
               <p>{basicsData[0].paragrph}</p>
             </div>
           </div>
@@ -45,7 +48,9 @@ const Basics = () => {
                   <BsCalendarEvent className="time-icon" />
                   <p> {elem.time} /</p> <p>{elem.data}</p>
                 </div>
-                <h1 className="basics-title">{elem.title}</h1>
+                <Link className="link" to={"/pageone"} state={elem}>
+                  <h1 className="basics-title">{elem.title}</h1>
+                </Link>
                 <span className="border-bottom"></span>
               </div>
             </div>

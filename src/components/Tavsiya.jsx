@@ -28,7 +28,7 @@ const Tavsiya = () => {
       <div className="lastnewsS__cards">
         {lastNewsSData.slice(0, 3).map((elem) => {
           return (
-            <div className="lastnewsS__card">
+            <div className="lastnewsS__card" key={elem.id}>
               <div id="vaqtbox">
                 <BsCalendarEvent className="time-icon" />
                 <p>{elem.time}</p>

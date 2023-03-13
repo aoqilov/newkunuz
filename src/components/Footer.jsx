@@ -34,27 +34,27 @@ const Footer = () => {
           </p>
           <div className="icons">
             <img
-              src="https://kun.uz/assets/cd6ab492/img/social-youtube.svg"
+              src="https://kun.uz/assets/99110d40/img/social-youtube.svg"
               alt=""
               className="iconS"
             />
             <img
-              src="https://kun.uz/assets/cd6ab492/img/social-telegram.svg"
+              src="https://kun.uz/assets/99110d40/img/social-telegram.svg"
               alt=""
               className="iconS"
             />
             <img
-              src="https://kun.uz/assets/cd6ab492/img/social-facebook.svg"
+              src="https://kun.uz/assets/99110d40/img/social-facebook.svg"
               alt=""
               className="iconS"
             />
             <img
-              src="https://kun.uz/assets/cd6ab492/img/social-twitter.svg"
+              src="https://kun.uz/assets/99110d40/img/social-twitter.svg"
               alt=""
               className="iconS"
             />
             <img
-              src="https://kun.uz/assets/cd6ab492/img/social-instagram.svg"
+              src="https://kun.uz/assets/99110d40/img/social-instagram.svg"
               alt=""
               className="iconS"
             />

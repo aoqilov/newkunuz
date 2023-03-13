@@ -26,7 +26,12 @@ const Muharir = () => {
       <div className="top__title-dubl">
         <CgShapeCircle className="top-icon" />
         <h1>Muharir tanlovi</h1>
-        <Link to={"/list"} state={{ state: muharirData }} onClick={refetch}>
+        <Link
+          className="link"
+          to={"/list"}
+          state={{ state: muharirData }}
+          onClick={refetch}
+        >
           <p>barchasi</p>
         </Link>
       </div>
@@ -40,7 +45,9 @@ const Muharir = () => {
                   <BsCalendarEvent className="time-icon" />
                   <p> {elem.time} /</p> <p>{elem.data}</p>
                 </div>
-                <h1 className="muharir-text">{elem.title}</h1>
+                <Link className="link" to={"/pageone"} state={elem}>
+                  <h1 className="muharir-text">{elem.title}</h1>
+                </Link>
               </div>
             </div>
           );

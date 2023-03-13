@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { CgShapeCircle } from "react-icons/cg";
 import { useQuery } from "react-query";
+import { Link } from "react-router-dom";
 import "../../style/component/qonun.scss";
 
 const Qonun = () => {
@@ -25,18 +26,22 @@ const Qonun = () => {
             <div className="imgbox">
               <img src={qonunData[0].photo1} alt="das" />
             </div>
-            <h1>{qonunData[0].title}</h1>
+            <Link className="link" to={"/pageone"} state={qonunData[0]}>
+              <h1>{qonunData[0].title}</h1>
+            </Link>
           </div>
         </div>
         <div className="qonun__rightbox">
           <div className="cards">
             {qonunData.slice(1, 5).map((elem) => {
               return (
-                <div className="card">
+                <div className="card" key={elem.id}>
                   <div className="imgbox">
                     <img src={elem.photo1} alt="" />
                   </div>
-                  <h1>{elem.title}</h1>
+                  <Link className="link" to={"/pageone"} state={elem}>
+                    <h1>{elem.title}</h1>
+                  </Link>
                 </div>
               );
             })}

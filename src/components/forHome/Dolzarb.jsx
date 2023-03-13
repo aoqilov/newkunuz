@@ -3,6 +3,7 @@ import React from "react";
 // icons
 import { CgShapeCircle } from "react-icons/cg";
 import { useQuery } from "react-query";
+import { Link } from "react-router-dom";
 import "../../style/component/dolzarb.scss";
 import Loading from "../Loading";
 
@@ -27,7 +28,10 @@ const Dolzarb = () => {
               <img src={dolzarbData[0].photo1} alt="" />
             </div>
             <div className="dolzarbMain-info">
-              <h1>{dolzarbData[0].title}</h1>
+              <Link className="link" to={"/pageone"} state={dolzarbData[0]}>
+                <h1>{dolzarbData[0].title}</h1>
+              </Link>
+
               <p>{dolzarbData[0].paragrph}</p>
             </div>
           </div>
@@ -38,7 +42,9 @@ const Dolzarb = () => {
               return (
                 <div key={elem.id} className="card">
                   <img src={elem.photo1} alt="" className="imgbox" />
-                  <h1>{elem.title}</h1>
+                  <Link className="link" to={"/pageone"} state={elem}>
+                    <h1>{elem.title}</h1>
+                  </Link>
                 </div>
               );
             })}

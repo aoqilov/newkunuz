@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="nav__logo">
         <Link>
           <img
-            src="	https://kun.uz/assets/cd6ab492/img/kun-uz-logo.svg"
+            src="	https://kun.uz/assets/99110d40/img/kun-uz-logo.svg"
             alt="Logo"
           />
         </Link>

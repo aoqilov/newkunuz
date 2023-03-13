@@ -23,7 +23,7 @@ const Mavzu = () => {
       <div className="top__title-dubl">
         <CgShapeCircle className="top-icon" />
         <h1>Mavzuga oid</h1>
-        <Link>
+        <Link to={"/list"} state={{ state: muharirData }}>
           <p>barchasi</p>
         </Link>
       </div>
@@ -37,7 +37,9 @@ const Mavzu = () => {
                   <BsCalendarEvent className="time-icon" />
                   <p> {elem.time} /</p> <p>{elem.data}</p>
                 </div>
-                <h1 className="muharir-text">{elem.title}</h1>
+                <Link className="link" to={"/pageone"} state={elem}>
+                  <h1 className="muharir-text">{elem.title}</h1>
+                </Link>
               </div>
             </div>
           );
